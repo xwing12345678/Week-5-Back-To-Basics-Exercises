@@ -278,6 +278,22 @@ for root_number in range(1,6):
 
 # Part ז
 
+menu_message = ''''
+===== MATH GAME =====
+1. Start Game
+2. View Instructions
+3. Exit
+
+Choose: 
+'''
+Instructions = '''
+The computor will give you 10 math questions,
+each one answered correctly will give you a point.
+At the end of the game you will see how many points you got.
+
+'''
+Score = 0
+exit_pressed = False
 
 
 
