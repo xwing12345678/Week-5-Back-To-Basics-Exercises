@@ -20,16 +20,17 @@ while not i > 50:
     i+=1
 
 #T4
-# user_input = input("Enter a whole poitive number: ")
+# user_input = input("Enter a whole positive number: ")
 # user_number = int(user_input)
 # Accumulator = user_number
-# for number in range (1,6):
+# while Accumulator <= user_number *5:
 #     print(Accumulator)
 #     Accumulator += user_number
 
 #T5
+number = 1
 Accumulator = 0
-for number in range (1,101):
+while Accumulator <= 100:
     Accumulator += number
 print (Accumulator)
 
@@ -112,8 +113,9 @@ print (Accumulator)
 
 #T11
 # user_number = int(input("Enter a number: "))
-# for i in range(1,11):
-#     print(f'{user_number} x {i} = {user_number*i} ')
+# i = 1
+# while i >=10:
+#      print(f'{user_number} x {i} = {user_number*i} ')
 
 #T12
 # user_input = input("Enter a whole number: ")
@@ -125,13 +127,13 @@ print (Accumulator)
 # print(f'{digit_count} digits')
 
 #t13
-user_input = input("Enter a whole number: ")
-user_number = int(user_input)
-fliped = 0
-while user_number > 0:
-    fliped = (fliped* 10 + user_number % 10)
-    user_number //= 10
-print(fliped)
+# user_input = input("Enter a whole number: ")
+# user_number = int(user_input)
+# fliped = 0
+# while user_number > 0:
+#     fliped = (fliped* 10 + user_number % 10)
+#     user_number //= 10
+# print(fliped)
 
 #t14
 # user_input = input("Enter a whole number: ")
@@ -147,6 +149,105 @@ print(fliped)
 #     print(f"{user_number} is a prime!")
 
 #T15
+# balance = 5000
+# running:bool = True
+# while running == True:
+#     choice = input(f'''Welcome to the banking system! \n
+#  Please chose one of the following options:
+#  1. Check ballance \n
+#  2. Deposit money \n
+#  3. Withdraw money \n
+#  4. Exit 
+# ''')
+#     if choice == '1':
+#         print(f'Your remaining ballance is: {balance}.')
+#     elif choice == '2':
+#         raw_withdrawal = input(f'Enter the amount of money you wish to deposit. \n You may not enter a negative number! \n Amount: ')
+#         Withdrawal = float(raw_withdrawal)
+#         if not Withdrawal >= 0:
+#             print("You can only deposit a positive amount!")
+#         balance += Withdrawal
+#         print(f'Thank you for your deposit! Your ballance is now {balance}')
+#     elif choice == '3':
+#         raw_withdrawal = input(f'Enter the amount of money you wish to withdraw. \n You may not enter a negative number! \n Amount: ')
+#         Withdrawal = float(raw_withdrawal)
+#         if not Withdrawal >= 0:
+#             print("You can only withdraw a positive amount!")
+#         balance -= Withdrawal
+#         print(f'Withdrawal confirmed! Your ballance is now {balance}')
+#     else:
+#         print("Thank you for using the banking system!\n We hope to see you again soon!")
+#         running = False
+#         break
+
+#Part ד
+#T16
+
+i = 1
+while True:
+    print (i)
+    i+=1
+    if i == 15:
+        break
+
+#T17
+i = 0
+while True:
+    i+=1
+    if i % 3 == 0:
+        continue
+    print (i)
+    if i == 31:
+        break
+
+#T18
+# end_number = 100
+# while True:
+#     user_input = input("Guess the number: ")
+#     user_number = int(user_input)
+#     if user_number == end_number:
+#         print('Congradulations you entered the correct number!')
+#         break
+
+#Part ה
+
+#T19
+for i in range(1,20):
+    print(i)
+
+#T20
+for i in range(0,101,5):
+    print(i)
+
+#T21
+Accumulator = 0
+for i in range(1,100):
+    Accumulator += i
+print(Accumulator)
+
+#T22
+user_input = input("Guess the number: ")
+user_number = int(user_input)
+for i in range(1,11): 
+    print(f'{user_number} x {i} = {user_number*i} ')
+
+#T23
+start_range = int(input("Enter the start number: "))
+end_range = int(input("Enter the end number: "))
+accumulator = 0
+for i in range(start_range,end_range+1):
+    accumulator += i
+print(f'Result: {accumulator}')
+
+#T24
+
+for i in range (1,100):
+    if i % 3 == 0 and i % 5 == 0:
+        print(i)
+
+#Part ו
+
+
 
 
 
