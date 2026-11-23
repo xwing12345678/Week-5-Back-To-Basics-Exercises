@@ -183,72 +183,100 @@ print (Accumulator)
 #Part ד
 #T16
 
-i = 1
-while True:
-    print (i)
-    i+=1
-    if i == 15:
-        break
-
-#T17
-i = 0
-while True:
-    i+=1
-    if i % 3 == 0:
-        continue
-    print (i)
-    if i == 31:
-        break
-
-#T18
-# end_number = 100
+# i = 1
 # while True:
-#     user_input = input("Guess the number: ")
-#     user_number = int(user_input)
-#     if user_number == end_number:
-#         print('Congradulations you entered the correct number!')
+#     print (i)
+#     i+=1
+#     if i == 15:
 #         break
 
-#Part ה
+# #T17
+# i = 0
+# while True:
+#     i+=1
+#     if i % 3 == 0:
+#         continue
+#     print (i)
+#     if i == 31:
+#         break
 
-#T19
-for i in range(1,20):
-    print(i)
+# #T18
+# # end_number = 100
+# # while True:
+# #     user_input = input("Guess the number: ")
+# #     user_number = int(user_input)
+# #     if user_number == end_number:
+# #         print('Congradulations you entered the correct number!')
+# #         break
 
-#T20
-for i in range(0,101,5):
-    print(i)
+# #Part ה
 
-#T21
-Accumulator = 0
-for i in range(1,100):
-    Accumulator += i
-print(Accumulator)
+# #T19
+# for i in range(1,20):
+#     print(i)
 
-#T22
-user_input = input("Guess the number: ")
-user_number = int(user_input)
-for i in range(1,11): 
-    print(f'{user_number} x {i} = {user_number*i} ')
+# #T20
+# for i in range(0,101,5):
+#     print(i)
 
-#T23
-start_range = int(input("Enter the start number: "))
-end_range = int(input("Enter the end number: "))
-accumulator = 0
-for i in range(start_range,end_range+1):
-    accumulator += i
-print(f'Result: {accumulator}')
+# #T21
+# Accumulator = 0
+# for i in range(1,100):
+#     Accumulator += i
+# print(Accumulator)
 
-#T24
+# #T22
+# user_input = input("Guess the number: ")
+# user_number = int(user_input)
+# for i in range(1,11): 
+#     print(f'{user_number} x {i} = {user_number*i} ')
 
-for i in range (1,100):
-    if i % 3 == 0 and i % 5 == 0:
-        print(i)
+# #T23
+# start_range = int(input("Enter the start number: "))
+# end_range = int(input("Enter the end number: "))
+# accumulator = 0
+# for i in range(start_range,end_range+1):
+#     accumulator += i
+# print(f'Result: {accumulator}')
+
+# #T24
+
+# for i in range (1,100):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print(i)
 
 #Part ו
 
+#T25
+# row_count = int(input("Enter the number of rows: "))
+# colunm_count = int(input("Enter the number of colunms: "))
+# for row in range(1,row_count+1):
+#     row_string = ""
+#     for colunm in range(1,colunm_count+1):
+#         row_string += '*'
+#     print(row_string)
+
+#T26
+# row_count = 6
+# colunm_count = 1
+# row_string = ""
+# for row in range(1,row_count+1):
+#     for colunm in range(1,colunm_count+1):
+#         row_string += '*'
+#     print(row_string)
+
+#T27
+for multiple_a in range(1,11):
+    for multiple_b in range(1,11):
+        print(f'{multiple_a} x {multiple_b} = {multiple_a*multiple_b}')
+
+#T28
+for root_number in range(1,6):
+    for iteration in range(1,6):
+        print(f'{root_number}, {iteration}')
 
 
+# Part ז
 
 
 
