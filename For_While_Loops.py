@@ -1,23 +1,23 @@
 # Part א
 #T1
-i = 1
-while not i > 10:
-    print (i)
-    i+=1
+# i = 1
+# while not i > 10:
+#     print (i)
+#     i+=1
 
 #T2
-i = 10
-while not i < 1:
-    print (i)
-    i-=1
-print("START!")
+# i = 10
+# while not i < 1:
+#     print (i)
+#     i-=1
+# print("START!")
 
 #T3
-i = 1
-while not i > 50:
-    if i % 2 == 0:
-        print (i)
-    i+=1
+# i = 1
+# while not i > 50:
+#     if i % 2 == 0:
+#         print (i)
+#     i+=1
 
 #T4
 # user_input = input("Enter a whole positive number: ")
@@ -28,11 +28,12 @@ while not i > 50:
 #     Accumulator += user_number
 
 #T5
-number = 1
-Accumulator = 0
-while Accumulator <= 100:
-    Accumulator += number
-print (Accumulator)
+# accumulator = 0
+# counter = 1
+# while counter <= 100:
+#     accumulator += counter
+#     counter += 1
+# print (accumulator)
 
 #part ב
 
@@ -50,31 +51,32 @@ print (Accumulator)
 #     user_try = input("Guess the number: ")
 #     if not user_try.isdigit():
 #         continue
-#     user_number = int(user_try)
-    
-# print("Congradulations you guessed correctly!")
+#     user_number = int(user_try)    
+# print("Congratulations you guessed correctly!")
 
 #T8
 # exit_number:int = 0 
-# number_list:list[int] = []
+# sum_of_numbers = 0
 # user_number = 10
 # loop_exit = False
 
 # while loop_exit == False:
-#     user_try = input("Enter a Grade: ")
+#     user_try = input("Enter a Number: ")
 #     if not user_try.isdigit():
 #         continue
 #     user_number = int(user_try)
 #     if user_number == exit_number:
 #         loop_exit = True
 #     else:
-#         number_list.append(user_number)
-# print(sum(number_list))
+#         sum_of_numbers += user_number
+# print(sum_of_numbers)
 
 #T9
 # loop_exit = False
 # exit_number:int = 999
-# grade_list:list[int] = []
+# grade_count = 0
+# grade_sum = 0
+
 # while loop_exit == False:
 #     user_try = input("Enter a Grade: ")
 #     if not user_try.isdigit():
@@ -83,9 +85,8 @@ print (Accumulator)
 #     if user_number == exit_number:
 #         loop_exit = True
 #     else:
-#         grade_list.append(user_number)
-# grade_sum = sum(grade_list)
-# grade_count = grade_list.__len__()
+#         grade_sum += user_number
+#         grade_count += 1
 # print(grade_count)
 # print(grade_sum)
 # if grade_sum > 0:
@@ -96,18 +97,19 @@ print (Accumulator)
 #T10
 # loop_exit = False
 # exit_number:int = 0
-# number_list:list[int] = []
+# numbers_accumulator = 0
+# numbers_count =0
+
 # while loop_exit == False:
 #     user_try = input("Enter a number: ")
 #     user_number = int(user_try)
-#     if user_number < exit_number:
+#     if user_number == exit_number:
 #         loop_exit = True
 #     else:
-#         number_list.append(user_number)
-# number_sum = sum(number_list)
-# number_count = number_list.__len__()
-# print(f'You entered {number_count} numbers')
-# print(f'For a total of:{number_sum}')
+#         numbers_accumulator += user_number
+#         numbers_count += 1
+# print(f'You entered {numbers_count} numbers')
+# print(f'For a total of: {numbers_accumulator}')
          
 # part ג
 
@@ -129,13 +131,13 @@ print (Accumulator)
 #t13
 # user_input = input("Enter a whole number: ")
 # user_number = int(user_input)
-# fliped = 0
+# flipped = 0
 # while user_number > 0:
-#     fliped = (fliped* 10 + user_number % 10)
+#     flipped = (flipped* 10 + user_number % 10)
 #     user_number //= 10
-# print(fliped)
+# print(flipped)
 
-#t14
+#T14
 # user_input = input("Enter a whole number: ")
 # user_number = int(user_input)
 # i = 2
@@ -206,7 +208,7 @@ print (Accumulator)
 # #     user_input = input("Guess the number: ")
 # #     user_number = int(user_input)
 # #     if user_number == end_number:
-# #         print('Congradulations you entered the correct number!')
+# #         print('congratulations you entered the correct number!')
 # #         break
 
 # #Part ה
@@ -249,31 +251,31 @@ print (Accumulator)
 
 #T25
 # row_count = int(input("Enter the number of rows: "))
-# colunm_count = int(input("Enter the number of colunms: "))
+# column_count = int(input("Enter the number of columns: "))
 # for row in range(1,row_count+1):
 #     row_string = ""
-#     for colunm in range(1,colunm_count+1):
+#     for column in range(1,column_count+1):
 #         row_string += '*'
 #     print(row_string)
 
 #T26
 # row_count = 6
-# colunm_count = 1
+# column_count = 1
 # row_string = ""
 # for row in range(1,row_count+1):
-#     for colunm in range(1,colunm_count+1):
+#     for column in range(1,column_count+1):
 #         row_string += '*'
 #     print(row_string)
 
 #T27
-for multiple_a in range(1,11):
-    for multiple_b in range(1,11):
-        print(f'{multiple_a} x {multiple_b} = {multiple_a*multiple_b}')
+# for multiple_a in range(1,11):
+#     for multiple_b in range(1,11):
+#         print(f'{multiple_a} x {multiple_b} = {multiple_a*multiple_b}')
 
-#T28
-for root_number in range(1,6):
-    for iteration in range(1,6):
-        print(f'{root_number}, {iteration}')
+# #T28
+# for root_number in range(1,6):
+#     for iteration in range(1,6):
+#         print(f'{root_number}, {iteration}')
 
 
 # Part ז
@@ -287,7 +289,7 @@ menu_message = ''''
 Choose: 
 '''
 Instructions = '''
-The computor will give you 10 math questions,
+The computer will give you 10 math questions,
 each one answered correctly will give you a point.
 At the end of the game you will see how many points you got.
 
