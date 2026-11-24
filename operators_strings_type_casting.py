@@ -31,8 +31,8 @@
 #T3
 
 # product_price = int(input('Enter the product price: '))
-# intrest_rate = float(input('Enter the discount percent: '))
-# discount_amount = product_price * intrest_rate
+# interest_rate = float(input('Enter the discount percent: '))
+# discount_amount = product_price * interest_rate
 # net_price = product_price - discount_amount
 # print(f'Discount amount: {discount_amount}\n final price: {net_price} ' )
 
@@ -126,14 +126,69 @@
 
 #T13
 
-age = input("Enter your age: ")
-#original code will not work because age is a string and it can't be added to 10 which is an int:
-#print(age + 10)
-print(int(age)+10)
+# age = input("Enter your age: ")
+# #original code will not work because age is a string and it can't be added to 10 which is an int:
+# #print(age + 10)
+# print(int(age)+10)
 
-#T14
-original_price = float(input('Enter the original price: ' ))
-VAT = 0.18
-total_price = original_price * (1+VAT)
-print(f"{total_price:.2f}" )
+# #T14
+# original_price = float(input('Enter the original price: ' ))
+# VAT = 0.18
+# total_price = original_price * (1+VAT)
+# print(f"{total_price:.2f}" )
+
+#Part ד
+
+#T15
+# first_name = input('Enter your first_name: ')
+# last_name =  input('Enter your last_name: ')
+# age =  int(input('Enter your age: '))
+# monthly_salary = int(input('Enter your monthly salary: '))
+# years_employed =  int(input('Enter the number of years at the company: '))
+# annual_salary = monthly_salary*12
+# raised_salary = monthly_salary*0.05
+# full_name_character_count = len(first_name.strip()) + len(last_name.strip())
+
+# print(f'''====== Employee Report ======
+# Name: {first_name} {last_name}
+# Age: {age}
+# Monthly Salary: {monthly_salary}
+# Years in the Company: {years_employed}
+# Annual Salary: {annual_salary}
+# Monthly Salary After Raise: {raised_salary}
+# Full Name length: {full_name_character_count}
+# ==============================
+# ''')
+
+#T16
+# usd_rate = 3.25
+# shekel_sum = float(input('Enter a sum in shekels: '))
+# euro_rate = 3.75
+# sum_in_dollars = shekel_sum/usd_rate
+# sum_in_euros = shekel_sum/euro_rate
+# conversion_fee_rate = 0.02
+# after_fee_dollars = sum_in_dollars - (sum_in_dollars*conversion_fee_rate) 
+# after_fee_euros = sum_in_euros - (sum_in_euros*conversion_fee_rate)
+# print(sum_in_euros,sum_in_dollars,after_fee_dollars,after_fee_euros) 
+
+#T17
+# first_name = input('Enter your first_name: ').strip().lower()
+# last_name =  input('Enter your last_name: ').strip().lower()
+# birth_year =  int(input('Enter your birth year: '))
+# email = f'{first_name}.{last_name}.{birth_year}@gmail.com'
+
+#T18
+
+sentence = input('Enter a sentence: ')
+print(sentence)
+print(len(sentence))
+print(sentence.upper())
+print(sentence.lower())
+print(sentence[-1::-1])
+print(sentence.count('a'))
+print(sentence.replace(' ','-'))
+
+#part ה
+
+# פרויקט מסכם
 
