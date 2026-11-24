@@ -179,16 +179,52 @@
 
 #T18
 
-sentence = input('Enter a sentence: ')
-print(sentence)
-print(len(sentence))
-print(sentence.upper())
-print(sentence.lower())
-print(sentence[-1::-1])
-print(sentence.count('a'))
-print(sentence.replace(' ','-'))
+# sentence = input('Enter a sentence: ')
+# print(sentence)
+# print(len(sentence))
+# print(sentence.upper())
+# print(sentence.lower())
+# print(sentence[-1::-1])
+# print(sentence.count('a'))
+# print(sentence.replace(' ','-'))
 
 #part ה
 
 # פרויקט מסכם
+name = input('Enter customer name: ')
+product = input('Enter the product name: ').upper()
+price = float(input('Enter the product price: '))
+quantity = int(input('Enter the quantity: '))
+discount_rate = float((input('Enter the discount percentage: ')))
+vat_rate = float((input('Enter the discount percentage: ')))
+subtotal = quantity * price
+discount = subtotal*discount_rate
+after_discount = subtotal - discount
+formatted_vat = f'%{vat_rate*100}'
+vat_amount = vat_rate * after_discount
+total = after_discount - vat_amount
+print(f'''
+================================
+          PURCHASE INVOICE
+================================
 
+Customer: {name}
+Product: {product}
+
+Unit Price: {price}
+Quantity: {quantity}
+
+Subtotal: {subtotal}
+Discount: {discount}
+After Discount: {after_discount}
+
+VAT: {formatted_vat}
+VAT Amount: {vat_amount}
+
+TOTAL: {total}
+
+================================
+       THANK YOU FOR SHOPPING
+================================
+
+''')
