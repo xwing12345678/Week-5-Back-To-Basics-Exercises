@@ -180,5 +180,74 @@
 #Part ד
 
 #T15
+# balance = 5000
+# withdrawal_amount = int(input(f'You  have {balance} amount of money in your acount.\nEnter the amount of money you want to withdraw: '))
+# if not withdrawal_amount > 0 :
+#     print('Error, you cannot withdraw a negative amount!') 
+# else:
+#     if not withdrawal_amount <= balance:
+#         print('Error, you cannot withdraw more then you have in your acount!')
+#     else:
+#         print('Withdrawal approved!')
+#         balance -= withdrawal_amount
+#         print(f'Your remaining ballance is {balance}')
 
-    
+#T16
+# membership_discount_percent = 0.1
+# age = int(input('Enter your age: '))
+# is_member = False
+# membership_input = input('Enter True if you are a member, otherwise enter anything else: ')
+# if membership_input == 'True':
+#     is_member = True
+# if age > 18:
+#     ticket_price = 50 
+# elif age <12:
+#     ticket_price = 25 
+# else:
+#     ticket_price = 35 
+
+# if not is_member:
+#     total_price = ticket_price
+# else:
+#     total_price = ticket_price -(ticket_price*membership_discount_percent)
+# print(f'{total_price}')
+
+#T17
+# age = int(input('Enter your age: '))
+# if not age >= 21:
+#     print('Ineligible for a loan, you are too young!')
+# else:
+#     monthly_salary = int(input('Enter your monthly salary: '))
+#     if not monthly_salary >= 7000:
+#         print('Ineligible for a loan, you are too poor!')
+#     else:
+#         work_seniority = float(input('Enter the number of years at your job: '))
+#         if not work_seniority >= 1:
+#             print('Ineligible for a loan, you job hop to much!')
+#         else:
+#             print('Your loan is approved!')
+
+#T18
+
+# hours = float(input('Enter the number of hours parked: '))
+# vehicle_type = input ('Enter in the type of vehicle: ') 
+# less_one_hour_discount_percent = 0.1
+# five_hour_discount_percent = 0.15
+
+# if vehicle_type == 'motorcycle':
+#     price_per_hour = 10
+# elif vehicle_type == 'car' :
+#     price_per_hour = 20
+# else:
+#     price_per_hour = 35
+
+# if not (hours<1 or hours>5):
+#     total_price = price_per_hour*hours
+# elif hours>5:
+#     total_price = (price_per_hour*hours) -((price_per_hour*hours)*five_hour_discount_percent)
+# else:
+#     total_price = (price_per_hour*hours) -((price_per_hour*hours)*less_one_hour_discount_percent)
+# print(f'{total_price}')
+
+#Part ה
+
