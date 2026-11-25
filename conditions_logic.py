@@ -251,3 +251,62 @@
 
 #Part ה
 
+#T19
+# number1 = int(input('Enter the first number: '))
+# number2 = int(input('Enter the second number: '))
+# operation_type = input('Enter one of the following operations to do between the 2 numbers:\n+ - * or /: ')
+# if operation_type == '/':
+#     if not number2 != 0:
+#         print('You cannot divide by zero!')
+#     else:
+#         print(number1/number2)
+# elif operation_type == '*':
+#     print(number1/number2)
+# elif operation_type == '+':
+#     print(number1+number2)
+# elif operation_type == '-':
+#     print(number1-number2)
+# else:
+#     print('Error, you did not select a valid operation!')
+
+#T20
+# year = int(input('Enter the year you want to check: '))
+# divisible_by_100 = year % 100 ==0
+# divisible_by_4 = year % 4 ==0
+# divisible_by_400 = year % 400 ==0
+# if divisible_by_400:
+#     leap_year_str = 'is'
+# elif divisible_by_4 and not divisible_by_100:
+#     leap_year_str = 'is'
+# else:
+#     leap_year_str = 'is not'
+# print(f'{year} {leap_year_str} a leap year.')
+
+#T21
+# hours_worked = int(input('Enter the number of hours worked: '))
+# base_hourly_pay = 50
+# overtime_threshold = 182
+# extreme_overtime_threshold = 2
+# overtime = hours_worked > overtime_threshold
+# overtime_bonus_less_2_hours = 1.25
+# overtime_bonus_more_then_2_hours = 1.5
+# if not overtime:
+#     total_pay = hours_worked*base_hourly_pay
+# else:
+#     base_pay = base_hourly_pay*overtime_threshold
+#     overtime_hours = hours_worked -overtime_threshold
+#     if overtime_hours <= extreme_overtime_threshold:
+#         overtime_pay = overtime_hours*base_hourly_pay*overtime_bonus_less_2_hours
+#         total_pay = overtime_pay + base_pay
+#     else:
+#         early_overtime_pay = extreme_overtime_threshold*base_hourly_pay*overtime_bonus_less_2_hours
+#         extreme_overtime_hours = overtime_hours - extreme_overtime_threshold
+#         extreme_overtime_pay = extreme_overtime_hours*base_hourly_pay*overtime_bonus_more_then_2_hours
+#         total_pay = base_pay+early_overtime_pay+extreme_overtime_pay
+# print(total_pay)
+    
+
+
+
+
+    
