@@ -304,7 +304,49 @@
 #         extreme_overtime_pay = extreme_overtime_hours*base_hourly_pay*overtime_bonus_more_then_2_hours
 #         total_pay = base_pay+early_overtime_pay+extreme_overtime_pay
 # print(total_pay)
+
+
+#Part ו
+
+#Refund System mini project
+# member_return_threshold = 30
+# regular_return_threshold = 14
+
+# opened_input = input('Has the product been opened? Enter False if it is still closed and anything else if it was opened: ')
+# if not opened_input == 'False':
+#     print('Sorry, you cannot get a refund on opened products, have a nice day!')
+
+# else:
+#     has_receipt_input = input('Do you have a receipt? Enter True if you do and anything else if it not: ')
+#     if not has_receipt_input == 'True':
+#         print('Sorry, you cannot get a refund without a receipt, have a nice day!')
+#     else:
+#         purchase_amount = float(input('Enter the amount you purchased the product for: '))
+#         if not purchase_amount > 0:
+#             print('We can only refund a positive amount!')
+#         else:
+#             days_since_purchase = int(input('Enter how many days have passed since your purchase: '))
+#             member_return_threshold = 30
+#             regular_return_threshold = 14
+#             if not days_since_purchase <= member_return_threshold:
+#                 print('Sorry, too many days have passed since you bought our product.')
+            
+#             elif not (days_since_purchase < regular_return_threshold):
+#                 membership_input = input('Are you part of our membership program? Enter True if you are and anything else if not: ')
+#                 if not membership_input == 'True':
+#                     print('Sorry, too many days have passed since you bought our product.')
+#             else:
+#                 customer_age = int(input('Enter the customers age: '))
+#                 print(f'You are entitled to a refund of {purchase_amount}!\nYou are {customer_age} years old.')
+
+
+           
+
+
+
     
+
+        
 
 
 
