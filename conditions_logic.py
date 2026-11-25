@@ -113,5 +113,72 @@
 # else:
 #     print(f'{number} is NOT a multiple of either 3 or 5.')
 
-
 #Part ג
+
+#T11
+# age = int(input('Enter your age: '))
+# if age >= 18:
+#     print('Allowed')
+# else:
+#     accompanied_input = input('Enter True if he is accompanied else enter something else: ')
+#     if accompanied_input == 'True':
+#         accompanied:bool = True
+#     else:
+#         accompanied:bool = False
+#     if not (age >= 16 and accompanied == True):
+#         print('Not allowed in!')
+#     else:
+#         print('Allowed')
+
+# #T12
+# average = float(input('Enter your average: '))
+# if average > 90:
+#     print('You qualify for a scholarship!')
+# else:
+#     monthly_income = float(input('Enter your monthly income in shekels: '))
+#     if monthly_income < 5000:
+#         low_income:bool = True
+#     else:
+#         low_income = False
+#     if not (low_income and average>85):
+#         print('Not qualified for a scholarship!')
+#     else:
+#         print('You qualify for a scholarship!') 
+
+#T13
+
+# correct_username = "admin"
+# correct_password = "123456"
+# user_active = False
+# entered_username = input('Enter your username: ')
+# if entered_username != correct_username:
+#     print('Unknown User, access denied!')
+# else:
+#     entered_password = input('Enter your password: ')
+#     user_active_input = input('If your acount is active enter True, else enter anything else: ')
+#     if user_active_input == 'True':
+#         user_active = True
+#     if not (correct_password== entered_password and user_active):
+#         print('Access denied!')
+#     else:
+#         print('Access granted!')
+
+#T14a
+# number = int(input('Enter a number: '))
+# valid_number = False
+# # if number >= 20 and number <=80 :
+# #     valid_number = True
+# if not (number > 20 and number <=80):
+#     valid_number = False
+# else:
+#     valid_number = True
+# if valid_number:
+#     print('Number in range')
+# else:
+#     print('Number out of range')
+
+#Part ד
+
+#T15
+
+    
